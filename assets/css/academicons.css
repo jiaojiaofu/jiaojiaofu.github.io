@@ -325,3 +325,9 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+/* Hide ClustrMaps on screens smaller than 768px */
+@media (max-width: 768px) {
+  #clustrmaps-widget {
+      display: none;
+  }
+}
